@@ -3,6 +3,7 @@
     div {
         display: flex;
         align-items: center;
+        color: var(--text-color-primary);
         gap: 8px;
     }
     /*nesting css*/
@@ -16,7 +17,8 @@
 
 #secondary {
     padding-block: 14px;
-    border: solid 1px var(--text-color-secundary);
+    color: var(--text-color-secundary);
+    border: solid 1px var(--stroke-color);
     border-inline: none;
     justify-content: space-between;
 }
